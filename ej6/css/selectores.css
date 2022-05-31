@@ -11,6 +11,8 @@
     margin: 10px;
     background-color: rgb(91, 10, 161);
     border-radius: 5px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -22,9 +24,9 @@
 }
 
 .boton::before {
-    content: Pasa por encima;
+    content: "Pasa por encima";
 }
 
 .boton:hover::after {
-    content: ¡Hecho !;
+    content: " ¡Hecho !";
 }
