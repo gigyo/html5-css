@@ -21,25 +21,10 @@
 
 }
 
-p.textoboton {
-    font-size: medium;
-    font-family: fantasy;
-    padding: 5px;
+.boton::before {
+    content: Pasa por encima;
 }
 
-p.textohecho {
-    font-size: medium;
-    font-family: fantasy;
-    padding: 5px;
-    visibility: hidden;
-}
-
-p .textoboton:active {
-
-    visibility: hidden;
-}
-
-.boton .textohecho:active {
-
-    visibility: visible;
+.boton:hover::after {
+    content: ¡Hecho !;
 }
