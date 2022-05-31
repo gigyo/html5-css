@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+.boton {
+    color: rgb(240, 36, 151);
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(91, 10, 161);
+    border-radius: 5px;
+
+}
+
+
+.boton:hover {
+    color: white;
+    background-color: green;
+
+}
+
+p.textoboton {
+    font-size: medium;
+    font-family: fantasy;
+    padding: 5px;
+}
+
+p.textohecho {
+    font-size: medium;
+    font-family: fantasy;
+    padding: 5px;
+    visibility: hidden;
+}
+
+p .textoboton:active {
+
+    visibility: hidden;
+}
+
+.boton .textohecho:active {
+
+    visibility: visible;
+}
