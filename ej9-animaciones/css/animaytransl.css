@@ -19,8 +19,8 @@ body {
     border-radius: 8px;
     color: white;
     font-weight: 600px;
-    transition: background-color 150ms;
-    animation: traslacion 4s ease-in-out infinite forwards alternate;
+    transition: background-color;
+    transition: 4s;
 }
 
 .btn-modern:hover {
