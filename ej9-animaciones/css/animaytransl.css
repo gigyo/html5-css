@@ -20,7 +20,7 @@ body {
     color: white;
     font-weight: 600px;
     transition: background-color;
-    transition: 4s;
+
 }
 
 .btn-modern:hover {
@@ -28,5 +28,6 @@ body {
     color: rgb(247, 243, 27);
     box-shadow: black;
     transform: translateY(-5px);
+    transition: 4s;
     /* box-shadow: #6640be; */
 }
