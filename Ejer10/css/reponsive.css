@@ -1,0 +1,63 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.conteiner {
+    background-color: burlywood;
+    display: flex;
+    gap: 5px;
+    width: 90%;
+    margin: 0.2rem;
+    min-height: 18rem;
+    /* flex-direction: column-reverse; */
+
+
+}
+
+.principal {
+    background-color: coral;
+    flex-grow: 2;
+    padding-left: 1.3rem;
+
+
+}
+
+.lateral {
+    background-color: violet;
+    margin: 0.1rem;
+    padding: 0.2rem;
+}
+
+/* .lateral-1 {
+    border-color: rgb(29, 2, 29);
+    border: solid;
+}
+
+.lateral-2 {
+    border-color: rgb(29, 2, 29);
+    border: solid;
+}
+
+.lateral-3 {
+    border-color: rgb(29, 2, 29);
+    border: solid;
+} */
+
+@media (max-width: 640px) {
+    h1 {
+        color: green;
+
+    }
+
+    .conteiner {
+        flex-direction: column-reverse;
+    }
+
+    .lateral {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+}
