@@ -27,6 +27,12 @@
     content: "Pasa por encima";
 }
 
+/* Te agrega al texto ya puesto
 .boton:hover::after {
+    content: " ¡Hecho !";
+} */
+
+/* Te reemplaza */
+.boton:hover::before {
     content: " ¡Hecho !";
 }
