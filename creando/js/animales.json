@@ -1,0 +1,87 @@
+{"animales":[
+    {   
+        "id": 1,
+        "nombre": "Lobo",
+        "alimentacion": "Carnívoro",
+        "habitat": "Su hábitat varía desde los témpanos de hielo de Groenlandia a los desiertos de Arabia o las selvas de la India.",
+        "conservacion": "Preocupación menor",
+        "descripcion": "El lobo es una especie de mamífero placentario del orden de los carnívoros. El perro doméstico se consideraba miembro de la misma especie según distintos indicios, la secuencia del ADN y otros estudios genéticos.",
+        "nombreCientifico": "Canis lupus.",
+        "altura": "80 85 cm (Adulto, Al hombro).",
+        "longitud": "1 - 1,6 m (Adulto).",
+        "familia": "Canidae",
+        "promedioVida": "16 años (Macho, En cautiverio), 14 años (Hembra, En libertad).",
+        "imagen": "lobo.jpg"
+    },
+    {   
+        "id": 2,
+        "nombre": "León",
+        "alimentacion": "Carnívoro",
+        "habitat": "La sabana de África y la India",
+        "conservacion": "Vulnerable decreciente",
+        "descripcion": "El león es un mamífero carnívoro de la familia de los félidos y una de las cinco especies del género Panthera.",
+        "nombreCientifico": "Panthera leo",
+        "altura": " 1,2 m (Macho, Adulto, Al hombro), 90 - 110 cm (Hembra, Adulto, Al hombro)",
+        "longitud": "1,8 - 2,1 m (Macho, Cabeza y cuerpo), 1,6 - 1,8 m (Hembra, Cabeza y cuerpo)",
+        "familia": "Félidos",
+        "promedioVida": "15 - 16 años (Hembra, Adulto, En libertad), 8 - 10 años (Macho, Adulto, En libertad)",
+        "imagen": "leon.jpg"
+    },
+    {   
+        "id": 3,
+        "nombre": "Jirafa",
+        "alimentacion": "Herbívoro",
+        "habitat": "Exclusivamente en África",
+        "conservacion": "No extinto,  en peligro de extinción",
+        "descripcion": "La jirafa es una especie de mamífero artiodáctilo, propio de África. Es la más alta de todas las especies de animales terrestres existentes, tiene un período de gestación de  15 meses (Estimado).",
+        "nombreCientifico": "Giraffa camelopardalis",
+        "altura": "5.8 metos (Adulto)",
+        "longitud": "4,2 m (Adulto)",
+        "familia": "Giraffidae",
+        "promedioVida": "entre 20 y 25 años",
+        "imagen": "jirafa.jpg"
+    },
+    {  
+        "id": 4,
+        "nombre": "Oso",
+        "alimentacion": "Omnívoro",
+        "habitat": "Eurasia y América del Norte, en las montañas Atlas del norte de África y en los Andes de América del Sur",
+        "conservacion": "No extinto",
+        "descripcion": "Los osos o úrsidos son animales de gran tamaño, generalmente omnívoros ya que, a pesar de su temible dentadura, comen frutos, raíces e insectos, además de carne",
+        "nombreCientifico": "Ursidae",
+        "altura": "Ursus maritimus: 1,8 – 2,4 m, Ailuropoda melanoleuca: 60 – 90 cm, Ursus arctos: 70 – 150 cm",
+        "longitud": "",
+        "familia": "Ursidae, mamíferos omnívoros",
+        "promedioVida": "entre 20 a 30 años",
+        "imagen": "oso.jpg"
+    },
+    { 
+        "id": 5,
+        "nombre": "Elefante",
+        "alimentacion": "Herbívoro",
+        "habitat": "En la selva tropical, en las sabanas boscosas y los pastizales del África.",
+        "conservacion": "No extinto",
+        "descripcion": "Los elefantes o elefántidos son una familia de mamíferos placentarios del orden Proboscidea. Antiguamente se clasificaban, junto con otros mamíferos de piel gruesa, en el orden, ahora inválido, de los paquidermos. Existen hoy en día tres especies y diversas subespecies. Período de gestación 22 meses.",
+        "nombreCientifico": "Elephantidae",
+        "altura": "Loxodonta africana: 3,2 m",
+        "longitud": "",
+        "familia": "Elephantidae",
+        "promedioVida": "entre 60 y 70 años",
+        "imagen": "elefante.jpg"
+    },
+    { 
+        "id": 6,
+        "nombre": "Pingüinos",
+        "alimentacion": "Carnívoro",
+        "habitat": "Sólo habitan en el hemisferio sur, con colonias en Sudáfrica, Sudamérica, Antártida, Australia y Nueva Zelanda.",
+        "conservacion": "No extinto",
+        "descripcion": "Los pingüinos son una familia de aves, la única del orden Sphenisciformes. Son aves marinas, no voladoras, que se distribuían casi exclusivamente en el hemisferio sur, exceptuando el pingüino de las islas Galápagos.",
+        "nombreCientifico": "Spheniscidae",
+        "altura": "Aptenodytes forsteri: 1,1 – 1,3 m, Eudyptula minor: 30 – 35 cm, Spheniscus mendiculus: 49 – 53 cm",
+        "longitud": "",
+        "familia": "Aves",
+        "promedioVida": "Entre 15 a 20 años",
+        "imagen": "pinguino.jpg"
+    }
+
+]}
