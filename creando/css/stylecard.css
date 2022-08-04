@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 2rem;
+
+}
+.card{
+    box-shadow:rgb(73, 71, 75);
+    box-shadow: 2rem;
+}
