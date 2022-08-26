@@ -13,12 +13,14 @@ request.onload = function(){
         document.getElementById("cardAnimals").innerHTML +=
         `
         <div class="col">
-          <div class="card">
+          <div id="card" class="card">
             <img src="img/animal/${listacard.animales[i].imagen}" class="card-img-top" alt="${listacard.animales[i].nombre}">
             <div class="card-body">
               <h5 class="card-title">${listacard.animales[i].nombre} - ${listacard.animales[i].nombreCientifico}</h5>
               <p class="card-text">${listacard.animales[i].descripcion}</p>
-              <p class="card-text">${listacard.animales.habitat}</p>
+              <p class="card-text">${listacard.animales[i].habitat}</p>
+              <hr>
+              <p class="card-text">${listacard.animales[i].conservacion}</p>
             </div>
           </div>
         </div>

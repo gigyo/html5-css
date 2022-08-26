@@ -4,14 +4,17 @@
 }
 
 body{
-    background-color: rgb(180, 226, 226);
-    color: azure;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
     font-stretch: narrower;
+    background: #9bd8bf; 
+    background: -webkit-linear-gradient(to top, #d2d7da, #1c1d1d); 
+    background: linear-gradient(to top, #d2d7da, #1c1d1d); 
 
 }
 
 .nav{
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -20,11 +23,27 @@ body{
 
 }
 
+
+.nav-item{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.separador{
+    color: white;
+    border-style:solid;
+    
+}
+
 .container{
     align-items: center;
     margin: 0.4rem;
-    /* background-color: dimgray; */
-    
+    padding-bottom: 0.4rem;    
 }
 
 table{
@@ -40,4 +59,10 @@ table{
 .footer{
     text-align: center;
     padding: 0.5rem;
+}
+
+.footer a{
+    color: #1c1d1d;
+    font-variant: small-caps;
+    text-decoration: none;
 }

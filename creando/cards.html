@@ -5,20 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!-- CSS -->
-     <link rel="stylesheet" href="css/stylecard.css">
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+     <link rel="stylesheet" href="css/stylecard.css">
          
     <title>Animales</title>
 </head>
 <body>
+  
+  
     <div class="container">
-        <h3>Ejemplo Bootstrap card con Json y Javascript</h3>
-        <div id="cardAnimals" class="row row-cols-1 row-cols-md-2 g-4">
+      
+      <div class="nav">
+          <nav>
+              <ul class="nav justify-content-end">
+                  <li class="nav-item">
+                      <a class="nav-link" href="form.html">Form</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Progress
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="table.html">1- This table</a></li>
+                            <li><a class="dropdown-item" href="animales.html">2- Table with Json</a></li>
+                            <li><a class="dropdown-item" href="cards.html">3- Card with Json</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">In process</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">About me</a>
+                    </li>
+              </ul>
+          </nav>
+        
+        </div>
+        <div>
+        <hr class="separator">
+
+          <h3>Ejemplo Cards de Bootstrap y tabla de Json con Javascript</h3>
+        </div>
+        <div id="cardAnimals" class="row row-cols-1 row-cols-md-3 g-6 justify-content-center">
             
             
         
         </div>
     </div>
+    <div class="footer">
+      Made by <a href="https://www.linkedin.com/in/gisela-vanina-d-angelo-programador/" target="_blank">Gisela V. Dangelo</a>
+  </div>
 </body>
 <script type="text/javascript" src="js/animalcard.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </html>
