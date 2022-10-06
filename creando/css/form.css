@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-stretch: narrower;
+    background: #222423; 
+    /* color: white; */
+    /* background: -webkit-linear-gradient(to top, #d2d7da, #1c1d1d); 
+    background: linear-gradient(to top, #d2d7da, #1c1d1d);  */
+
+}
+.nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.5rem;
+    text-shadow: 0.3rem;
+
+}
+
+
+.nav-item{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.nav-item a{
+    color: white;
+}
+
+.nav-item a:hover{
+    color: rgb(141, 115, 115);
+}
+
+.dropdown-menu a{
+    color:#222423
+}
+
+.separador{
+    color: white;
+    border-style:solid;
+    
+}
+
+.container{
+    margin: 0.4rem;
+    padding-bottom: 0.4rem;
+    display:inline-block;
+    justify-content: center;
+}
+
+input{
+    margin-top: 0.1rem;
+    color:#222423;
+    border-radius: 2rem;
+}
+
+textarea{
+    margin-top: 0.1rem;
+    color: #222423;
+    border-radius: 2rem;
+}
+
+.control-form{
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-width: 0.1rem;
+    border-radius: 2rem;
+    border-color: aliceblue;
+    padding-bottom:2rem;
+    
+}
+
+.form{
+    margin-top: 1rem;
+}
+
+h1, h2{
+    text-align: center;
+    color: white;
+}
+
+h2{
+    display: flex;
+    position:absolute;
+}
+
+#file{
+    background-color: rgb(218, 218, 233);
+    border: crimson;
+}
+
+#nuevodato{
+    color:white;
+    margin-top: 4rem;
+    margin-inline: 1rem;
+}
