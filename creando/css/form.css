@@ -102,3 +102,16 @@ h2{
     margin-top: 4rem;
     margin-inline: 1rem;
 }
+
+.footer{
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+   
+}
+
+.footer a{
+    color: white;
+    font-variant: small-caps;
+    text-decoration: none;
+}
